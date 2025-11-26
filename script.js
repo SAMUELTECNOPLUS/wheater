@@ -82,7 +82,7 @@ conditionTxt.textContent = main
 humidityValueTxt.textContent = humidity + '%'
 windValueTxt.textContent = speed + ' M/s'
 
-currentDateTxt.textContent = getCurrentDate()
+
 weatherSummaryImg.src = `assets/weather/${getWeatherIcon(id)}`
 
 showDisplaySection(weatherInfoSection)
@@ -95,5 +95,6 @@ function  showDisplaySection(section) {
 .forEach(section => section.style.display = 'none')
 
 section.style.display = 'flex';
+
 
 }
