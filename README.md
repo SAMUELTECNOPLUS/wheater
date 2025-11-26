@@ -1,2 +1,0 @@
-# wheater
-Created with CodeSandbox
